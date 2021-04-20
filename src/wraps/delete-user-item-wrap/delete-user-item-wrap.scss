@@ -1,0 +1,12 @@
+@import './../../common-styles/vars.scss';
+
+.delete-user-item-wrap {
+    display: block;
+    cursor: pointer;
+
+    &:hover {
+        .icon {
+            fill: $lime;
+        }
+    }
+}
