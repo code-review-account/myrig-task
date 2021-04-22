@@ -1,0 +1,27 @@
+@import 'normalize.css';
+@import './common-styles/fonts.scss';
+@import './common-styles/vars.scss';
+
+html {
+  font-size: 10px;
+
+  @media screen and (max-width: 1400px) {
+    font-size: 0.7vw;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, $main-font,  'georgia',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+h1, h2, h3, h4 {
+  font-family: $title-font;
+}
+

@@ -1,0 +1,70 @@
+@import './../../common-styles/vars.scss';
+
+.table {
+    width: 120rem;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.4rem;
+    color: $gray-3;
+    line-height: 1.1;
+    border-spacing: 0;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px $gray-2;
+    background-color: #fff;
+    table-layout:fixed;
+
+    &__caption {
+        margin: 0 0 1.8rem;
+        font-family: $title-font;
+        font-size: 2.4rem;
+        letter-spacing: normal;
+        color: $gray-3;
+        text-align: left;
+    }
+
+    &__row {
+        &:nth-child(odd) {
+            background-color: $white-2;
+            line-height: 2;
+        }
+
+        &:nth-child(1) {
+            font-family: $title-font;
+            background-color: $gray-1;
+        }
+
+        td, th {
+            padding: 1rem;
+
+            &:nth-child(1) {
+                padding-left: 2rem;
+                width: 2.0rem;
+            }
+
+            &:nth-child(2) {
+                width: 4.5rem;
+            }
+
+            &:nth-child(3) {
+                width: 27.5rem;
+            }
+
+            &:nth-child(4) {
+                width: 14.5rem;
+            }
+
+            &:nth-child(5) {
+                width: 9rem;
+            }
+
+            &:nth-child(6) {
+                width: 8rem;
+            }
+
+            &:nth-child(7) {
+                width: 28.5rem;
+            }
+        }
+    }
+}
